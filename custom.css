@@ -1,0 +1,75 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+.img-responsive {
+  max-width: 100%;
+}
+
+.pv_image {
+	background: url(pvimage.jpg) no-repeat fixed center ;
+	background-size: cover;
+	height: 100vh;
+	position: relative;
+}
+
+.pv_wrapper {
+	color:white;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	font-size: 22px; 
+}
+
+.pv_wrapper h1 {
+	font-size: 4.4rem;
+	text-align: center;
+}
+
+
+.pv_wrapper span {
+	margin-left: 5rem;
+	display: inline-block;
+	margin-bottom: .5rem;
+}
+
+
+
+.section {
+	
+	width: 90%;
+	margin-top: .3rem;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.details {
+	float: left;
+	width: 24%;
+	margin-left: .5rem;
+}
+
+
+.details:first-of-type {
+	margin-left: 0;
+}
+.details h2{
+	color:green;
+	font-variant-caps: all-petite-caps;
+}
+
+
+@media screen and (max-width: 700px) {
+	.details { 
+		width: 100%;
+		float: none;
+	}
+}
+.icon-group{
+
+	margin-right: 25px;
+    width: 50px;
+    cursor: pointer;
+
+}
